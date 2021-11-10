@@ -1,0 +1,12 @@
+:host {
+    --background: url(https://via.placeholder.com/150)
+}
+.background {
+    display: inline-block;
+    min-height: 500px;
+    min-width: 100%;
+    background-image: var(--background);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
